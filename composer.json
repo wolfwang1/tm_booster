@@ -1,0 +1,21 @@
+{
+    "name": "g7/tmbooster",
+    "description": "php hybrid framework",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Wolf Wang",
+            "email": "wangyu@g7.com.cn"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">= 5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "TmBooster\\": "src/"
+        }
+    }
+}
